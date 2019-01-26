@@ -93,14 +93,14 @@ void loop() {
      step = PRESS_X;
      break;
    case PRESS_X:
-      while (!mg.pressed(B_BUTTON)) {
+      while (!mg.pressed(X_BUTTON)) {
         void();
       }
        
      step = PRESS_Y;
      break;
     case PRESS_Y:
-      while (!mg.pressed(A_BUTTON)) {
+      while (!mg.pressed(Y_BUTTON)) {
         void();
       }
      step = PRESS_UP;
